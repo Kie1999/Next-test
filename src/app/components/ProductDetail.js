@@ -83,9 +83,9 @@ const ProductDetail = ({ product }) => {
       <h3>Return Policy</h3>
       <p>{product.returnPolicy}</p>
 
-      <a href="/" className="back-link">
+      {/* <a href="/" className="back-link">
         Back to Product List
-      </a>
+      </a> */}
     </>
   );
 };
